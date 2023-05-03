@@ -4,41 +4,41 @@ public class Pessoa {
 
         Pessoa pessoa = new Pessoa("Isaque", 24, "Etec");
 
-        System.out.println(pessoa.getNome());
-        System.out.println(pessoa.getIdade());
-        System.out.println(pessoa.getEndereço());
+        System.out.println("Nome: " + pessoa.getNome());
+        System.out.println("Idade: " + pessoa.getIdade());
+        System.out.println("Endereço: " + pessoa.getEndereço());
 
         Funcionario funcionario = new Funcionario(2000000, "Isaque", 24, "Etec");
 
-        System.out.println(funcionario.getSalario());
-        System.out.println(funcionario.getNome());
-        System.out.println(funcionario.getIdade());
-        System.out.println(funcionario.getEndereço());
+        System.out.println("Salário: " + funcionario.getSalario());
+        System.out.println("Nome: " + funcionario.getNome());
+        System.out.println("Idade: " + funcionario.getIdade());
+        System.out.println("Endereço: " + funcionario.getEndereço() + "\n");
 
         Aluno aluno = new Aluno("João", 17, "Ibirarema", "3º", "Informática");
 
-        System.out.println(aluno.getNome());
-        System.out.println(aluno.getIdade());
-        System.out.println(aluno.getEndereço());
-        System.out.println(aluno.getSemestre());
-        System.out.println(aluno.getCurso());
+        System.out.println("Nome: " + aluno.getNome());
+        System.out.println("Idade: " + aluno.getIdade());
+        System.out.println("Endereço: " + aluno.getEndereço());
+        System.out.println("Semestre: " + aluno.getSemestre());
+        System.out.println("Curso: " + aluno.getCurso() + "\n");
 
         Professor professor = new Professor(2000000, "Isaque", 24, "Etec", "PW2");
 
-        System.out.println(professor.getSalario());
-        System.out.println(professor.getNome());
-        System.out.println(professor.getIdade());
-        System.out.println(professor.getEndereço());
-        System.out.println(professor.getDisciplina());
+        System.out.println("Salário: " + professor.getSalario());
+        System.out.println("Nome: " + professor.getNome());
+        System.out.println("Idade: " + professor.getIdade());
+        System.out.println("Endereço: " + professor.getEndereço());
+        System.out.println("Disciplina: " + professor.getDisciplina() + "\n");
 
-        FuncAdm funcadm = new FuncAdm("PW2", "Professor", 24, "Isaque", 2000000, "Etec");
+        FuncAdm funcadm = new FuncAdm("PW2", "Professor", 2000000, "Isaque", 24, "Etec");
 
-        System.out.println(funcadm.getSalario());
-        System.out.println(funcadm.getNome());
-        System.out.println(funcadm.getIdade());
-        System.out.println(funcadm.getEndereço());
-        System.out.println(funcadm.getSetor());
-        System.out.println(funcadm.getFuncao());
+        System.out.println("Salário: " + funcadm.getSalario());
+        System.out.println("Nome: " + funcadm.getNome());
+        System.out.println("Idade: " + funcadm.getIdade());
+        System.out.println("Endereçõ: " + funcadm.getEndereço());
+        System.out.println("Setor: " + funcadm.getSetor());
+        System.out.println("Função: " + funcadm.getFuncao());
 
     }
 

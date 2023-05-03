@@ -9,20 +9,45 @@ public class Pessoa{
         System.out.println(pessoa.getIdade());
         System.out.println(pessoa.getEndereço());
 
-        Funcionario funcionario = new Funcionario("Isaque", 24, "Etec", "Professor");
+        Funcionario funcionario =new Funcionario(2000000,"Isaque",24,"Etec");
 
+        System.out.println(funcionario.getSalario());
         System.out.println(funcionario.getNome());
-        System.out.println(funcionario.getMarca());
-        System.out.println(funcionario.getCor());
-        System.out.println(funcionario.getAno());
+        System.out.println(funcionario.getIdade());
+        System.out.println(funcionario.getEndereço());
 
-        Patinete patinete =new Patinete("Bandeirantes","Bandeirantes","Rosa", 2023);
+        Aluno aluno =new Aluno("João",17,"Ibirarema","3º","Informática");
 
-        System.out.println(patinete.getNome());
-        System.out.println(patinete.getMarca());
-        System.out.println(patinete.getCor());
-        System.out.println(patinete.getAno());
+        System.out.println(aluno.getNome());
+        System.out.println(aluno.getIdade());
+        System.out.println(aluno.getEndereço());
+        System.out.println(aluno.getSemestre());
+        System.out.println(aluno.getCurso());
+    
+        
+        Professor professor =new Professor("PW2","Isaque",24,"Etec", 2000000, "Professor");
 
+        System.out.println(professor .getSalario());
+        System.out.println(professor .getNome());
+        System.out.println(professor .getIdade());
+        System.out.println(professor .getEndereço());
+        System.out.println(professor .getDisciplina());
+    
+        
+
+        FuncAdm funcadm =new FuncAdm("PW2","Professor",24,"Isaque", 2000000, "Etec");
+
+        System.out.println(funcadm.getSalario());
+        System.out.println(funcadm.getNome());
+        System.out.println(funcadm.getIdade());
+        System.out.println(funcadm.getEndereço());
+        System.out.println(funcadm.getSetor());
+        System.out.println(funcadm.getFuncao());
+
+        
+        
+
+    }
 
 
 

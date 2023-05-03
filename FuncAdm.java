@@ -25,4 +25,8 @@ public class FuncAdm extends Funcionario{
     public FuncAdm(){
         
     }
+    public FuncAdm(int i, String string, int j, String string2) {
+    }
+    public FuncAdm(int i, String string, int j, String string2, String string3) {
+    }
 }

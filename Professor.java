@@ -11,11 +11,13 @@ public class Professor extends Funcionario{
 
 
 
-    public Professor(String setor, String funcao, double salario, String nome, int idade, String endereco, String disciplina){
+    public Professor(double salario, String nome, int idade, String endereco, String disciplina){
         super(salario, nome,idade, endereco);
         setDisciplina(disciplina);
     }
     public Professor(){
         
+    }
+    public Professor(String string, String string2, int i, String string3, int j, String string4) {
     }
 }

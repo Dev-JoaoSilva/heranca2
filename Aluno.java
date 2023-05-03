@@ -25,4 +25,6 @@ public class Aluno extends Pessoa{
     public Aluno(){
         
     }
+    public Aluno(String string, int i, String string2, String string3, String string4) {
+    }
 }
